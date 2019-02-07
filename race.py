@@ -39,7 +39,7 @@ for step in range (6):
   mac.pendown()
   
   sam = Turtle()
-  sam.color('green')
+  sam.color('blue')
   sam.shape('turtle')
   
   sam.penup()
