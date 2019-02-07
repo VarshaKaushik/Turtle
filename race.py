@@ -47,7 +47,7 @@ for step in range (6):
   sam.pendown()
   
   mik = Turtle()
-  mik.color('green')
+  mik.color('red')
   mik.shape('turtle')
   
   mik.penup()
