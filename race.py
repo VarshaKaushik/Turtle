@@ -45,6 +45,14 @@ for step in range (6):
   sam.penup()
   sam.goto(-160,10)
   sam.pendown()
+
+  ram = Turtle()
+  ram.color('green')
+  ram.shape('turtle')
+  
+  ram.penup()
+  ram.goto(-160,10)
+  ram.pendown()
   
   mik = Turtle()
   mik.color('red')
@@ -61,5 +69,5 @@ for step in range (6):
     sam.forward(randint(1,5))
     mac.forward(randint(1,5))
     mik.forward(randint(1,5))
-
+    ram.forward(randint(1,5))
 
