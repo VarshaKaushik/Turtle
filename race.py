@@ -53,6 +53,14 @@ for step in range (6):
   mik.penup()
   mik.goto(-160,-20)
   mik.pendown()
+
+  m = Turtle()
+  m.color('red')
+  m.shape('turtle')
+  
+  m.penup()
+  m.goto(-160,-20)
+  m.pendown()
   
   
   for turn in range(100):
@@ -61,5 +69,6 @@ for step in range (6):
     sam.forward(randint(1,5))
     mac.forward(randint(1,5))
     mik.forward(randint(1,5))
+    m.forward(randint(1,5))
 
 
